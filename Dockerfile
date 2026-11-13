@@ -2,7 +2,7 @@ FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-COPY Sample.java .
+COPY sample.java .
 
 RUN javac Sample.java
 
